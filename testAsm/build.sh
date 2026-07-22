@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE="test"
+FILE="test_2"
 
 echo "=== Сборка файла $FILE.asm ==="
 nasm -f elf64 $FILE.asm -o $FILE.o
