@@ -18,6 +18,6 @@ _start:
 	int 0x80	; вызов ядра
 
 section .data
-msg db 'Displaying 9 start', 0xa
-len equ $ - msg ; длина нашего сообщения
+msg db 'Displaying 9 stars', 0xa ; наше сообщение
+len equ $ - msg 	; длина нашего сообщения
 s2 times 9 db '*'
